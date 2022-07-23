@@ -49,6 +49,7 @@ The even indices are  and , and the odd indices are  and . We then print a singl
 
 
 // SOLUTION
+
 function processData(input) {
     let inputCopy = input.split('\n').slice(1);
     inputCopy.forEach((str) => {
