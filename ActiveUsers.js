@@ -35,10 +35,10 @@ console.log("names, names)
             
             
  // SOLUTION 2 =>
-            users.sort((user1, user2) => user1.age < user2.age ? 1 : -1))
- const names = [];
- users.forEach((user) => {
-   names.push(user.name);
+users.sort((user1, user2) => user1.age < user2.age ? 1 : -1))
+const names = [];
+users.forEach((user) => {
+names.push(user.name);
 
 
 // SOLUTION 3 =>
